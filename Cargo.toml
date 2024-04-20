@@ -8,4 +8,6 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.82"
 byteorder = "1.5.0"
+clap = { version = "4.4.2", features = ["env", "derive"] }
+dotenv = { version = "0.15.0", features = ["clap"] }
 raylib = { version = "3.7" }
